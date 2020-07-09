@@ -83,6 +83,7 @@
 .mfp-img{max-height: 100% !important;}
 
 .grid-item{margin-bottom: 0px}
+.post__title:hover{color: #19c2c9}
 /* 1. base
 --------------------------------------------------------------------------------*/
 @font-face {font-family: 'NotoSansCJKkr-Medium';

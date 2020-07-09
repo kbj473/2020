@@ -32,11 +32,11 @@
 --------------------------------------------------------------------------*/
 /*추가내용*/
 .service__text span{font-size: 10px}
-.site_link{width: 80px; height: 100%; text-align: center;  margin: 0 auto; border: 1px solid #748182; border-radius: 15px; box-sizing: border-box; display: inline-block; }
+.site_link{width: 80px; height: 100%; text-align: center;  margin: 0 auto; border: 1px solid #748182; border-radius: 15px; box-sizing: border-box; display: block; }
 .site_link a{width: 80px; height: 100%; color: #748182; font-family:"Poppins",  'NotoSansCJKkr-Medium', sans-serif; font-size: 14px;}
 
 
-.title_list{width: 45%; height: 100%; margin: 0 auto; color: #000000;text-align: center; padding: 0px 0px; font-size: 15px; font-family: "Poppins",  'NotoSansCJKkr-Medium', sans-serif; display: inline-block; margin-left: 20%}
+.title_list{width: 45%; height: 100%; margin: 0 auto; color: #000000;text-align: center; padding: 0px 0px; font-size: 15px; font-family: "Poppins",  'NotoSansCJKkr-Medium', sans-serif; display: block;margin-bottom: 10px}
 
 .site_link:hover{background-color: #ffffff; border: 1px solid #19c2c9; border-radius: 15px; box-sizing: border-box}
 
@@ -82,7 +82,7 @@
 /*Bar-6 end*/
 .mfp-img{max-height: 100% !important;}
 
-.grid-item normal{margin-bottom: 20px}
+.grid-item{margin-bottom: 0px}
 /* 1. base
 --------------------------------------------------------------------------------*/
 @font-face {font-family: 'NotoSansCJKkr-Medium';
@@ -853,6 +853,7 @@ ul {
 }
 .grid-css .grid-item .grid-item__inner {
     position: relative;
+    margin-bottom: 20px
 }
 
 .grid-css.grid-css--grid .grid-item__content-wrapper {

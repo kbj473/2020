@@ -137,7 +137,7 @@ $('.grid-item', workWrapper).reCalWidth();
 	});
 }
 work();
-
+/*
 $('.portfolio').magnificPopup({
     delegate: 'a',
     type: 'image',
@@ -171,7 +171,7 @@ removalDelay: 500, //delay removal by X to allow out-animation
         }
     },
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-});
+});*/
 /**
  *  Slide Custom
  */

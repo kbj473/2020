@@ -32,9 +32,14 @@
 --------------------------------------------------------------------------*/
 /*추가내용*/
 .service__text span{font-size: 10px}
-.site_link{margin-left: 15px; width: 100px; height: 25px; background-color: #000000; text-align: center; margin-top: 15px}
-.site_link a{color: #ffffff; font-family:"Poppins",  'NotoSansCJKkr-Medium', sans-serif; font-size: 12px;display: block }
-.title_list{margin-left: 0px; color: #000000;text-align: center; padding: 0px 0px; font-size: 15px; font-family: "Poppins",  'NotoSansCJKkr-Medium', sans-serif; }
+.site_link{width: 80px; height: 100%; text-align: center;  margin: 0 auto; border: 1px solid #748182; border-radius: 15px; box-sizing: border-box; display: inline-block; }
+.site_link a{width: 80px; height: 100%; color: #748182; font-family:"Poppins",  'NotoSansCJKkr-Medium', sans-serif; font-size: 14px;}
+
+
+.title_list{width: 45%; height: 100%; margin: 0 auto; color: #000000;text-align: center; padding: 0px 0px; font-size: 15px; font-family: "Poppins",  'NotoSansCJKkr-Medium', sans-serif; display: inline-block; margin-left: 20%}
+
+.site_link:hover{background-color: #ffffff; border: 1px solid #19c2c9; border-radius: 15px; box-sizing: border-box}
+
 .ability_bar, .ability_bar2, .ability_bar3, .ability_bar4, .ability_bar5, .ability_bar6{margin-bottom: 16px}
 .post__media>a>img{margin-bottom: 16px;}
 .ability_bar span{position: absolute; left: 65%; color: #ffffff; line-height: 1em; z-index: 999; top: 2.5px}
@@ -76,6 +81,8 @@
 .post__media:hover .ability_bar6:after{content: ''; display: block; clear: both; width: 70%; height: 20px; background-color: #00a651; position: absolute; transition-duration: 2s}
 /*Bar-6 end*/
 .mfp-img{max-height: 100% !important;}
+
+.grid-item normal{margin-bottom: 20px}
 /* 1. base
 --------------------------------------------------------------------------------*/
 @font-face {font-family: 'NotoSansCJKkr-Medium';
@@ -1546,6 +1553,7 @@ ul {
 
 .grid-css .grid-item, .grid-css .grid-sizer {
     width: 100%;
+    margin-bottom: 25px
 }
 
 .grid-css .grid-item .grid-item__inner .grid-item__content-wrapper {

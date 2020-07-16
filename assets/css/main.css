@@ -84,6 +84,7 @@
 
 .grid-item{margin-bottom: 0px}
 .post__title:hover{color: #19c2c9}
+.social-icon i {font-size: 22px}
 /* 1. base
 --------------------------------------------------------------------------------*/
 @font-face {font-family: 'NotoSansCJKkr-Medium';

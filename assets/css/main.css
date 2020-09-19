@@ -85,6 +85,10 @@
 .grid-item{margin-bottom: 0px}
 .post__title:hover{color: #19c2c9}
 .social-icon i {font-size: 22px}
+
+/*2020 09 19 추가*/
+
+.filter a{font-size: 1.2em !important}
 /* 1. base
 --------------------------------------------------------------------------------*/
 @font-face {font-family: 'NotoSansCJKkr-Medium';
